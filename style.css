@@ -1,0 +1,75 @@
+/*----style.css----*/
+
+body {
+    box-sizing: border-box;
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*----Header----*/
+.header, .footer {
+    background-color: #1F2937;
+    display: flex;
+}
+
+#subtext, a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/*----Section Two----*/
+.section2 {
+    display: flex;
+    flex-direction: column;
+}
+.a22 {
+    display: flex;
+    flex-direction: row;
+}
+#square {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+/*----Section Three----*/
+.section3 {
+    background-color: #E5E7Eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.a31 {
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+
+}
+
+.a32{
+    font-weight: 900;
+}
+
+/*----Section Four----*/
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#blue-box {
+  border-radius: 25px;
+  background: #3882F6;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+/*----Footer----*/
